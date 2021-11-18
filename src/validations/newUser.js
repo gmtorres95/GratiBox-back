@@ -16,7 +16,7 @@ export default async function validateNewUser(user) {
       return validation;
     }
 
-    const isExistingEmail = await fetchUser(user);
+    const isExistingEmail = await fetchUser(user.email);
 
     if (isExistingEmail.length > 0) {
       validation = generateErrorMessage(409, 'Email is already registered.');

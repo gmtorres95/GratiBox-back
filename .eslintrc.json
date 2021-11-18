@@ -20,7 +20,6 @@
         ],
         "linebreak-style": 0,
         "consistent-return": "off",
-        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-        "env": {"jest": true}
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
     }
 }

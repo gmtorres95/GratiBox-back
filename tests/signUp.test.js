@@ -1,5 +1,4 @@
 import supertest from 'supertest';
-
 import '../src/setup.js';
 import pool from '../src/database.js';
 import app from '../src/app.js';

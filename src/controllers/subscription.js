@@ -23,10 +23,10 @@ export default async function subscription(req, res) {
       ...userSubscription[0],
       plan: { ...plan[0] },
       delivery: { ...deliveryDetails[0] },
-      // items: { ...items[0] },
+      items: items.map((item) => item.item_name),
     };
 
-    res.send(items);
+    res.send(result);
   } catch (error) {
     res.sendStatus(500);
   }

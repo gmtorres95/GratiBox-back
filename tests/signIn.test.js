@@ -10,7 +10,7 @@ describe('POST /sign-in', () => {
   let userId;
 
   beforeAll(async () => {
-    userId = insertUser(userData);
+    userId = await insertUser(userData);
   });
 
   afterAll(async () => {

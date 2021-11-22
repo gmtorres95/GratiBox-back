@@ -3,7 +3,7 @@ import fetchPlans from '../queries/fetchPlans.js';
 import fetchSubscriptionItems from '../queries/fetchSubscriptionItems.js';
 import fetchSubscriptions from '../queries/fetchSubscriptions.js';
 
-export default async function subscription(req, res) {
+export default async function getSubscription(req, res) {
   const userId = res.locals.user_id;
 
   try {

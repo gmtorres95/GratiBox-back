@@ -2,7 +2,7 @@ import pool from '../database.js';
 
 export default async function fetchSubscriptionItems(subscriptionId) {
   const result = await pool.query(`
-    SELECT items.item
+    SELECT items.item AS item_name
     FROM subscription_items
       JOIN items
         ON subscription_items.item_id = items.id

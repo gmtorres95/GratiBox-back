@@ -3,7 +3,7 @@
 <img src="https://github.com/gmtorres95/GratiBox-front/blob/main/public/logo192.png" />
 
 Get a monthly subscription of natural products and meditation equipments!  
-Check the front-end of this application [here](https://github.com/gmtorres95/GratiBox-bront)  
+Check the front-end of this application [here](https://github.com/gmtorres95/GratiBox-front)  
 Link of the API: https://gratibox-backend.herokuapp.com/
 
 ## Technologies

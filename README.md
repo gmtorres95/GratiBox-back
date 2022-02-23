@@ -1,6 +1,4 @@
-# GratiBox (back-end)
-
-<img src="https://github.com/gmtorres95/GratiBox-front/blob/main/public/logo192.png" />
+# <img src="https://github.com/gmtorres95/GratiBox-front/blob/main/public/favicon.ico" height="24px" /> GratiBox (back-end)
 
 Get a monthly subscription of natural products and meditation equipments!  
 Check the front-end of this application [here](https://github.com/gmtorres95/GratiBox-front)  
